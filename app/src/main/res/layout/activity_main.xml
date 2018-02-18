@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.shahniz_1202150279_modul2.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="214dp"
+        android:layout_height="174dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Menu:"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <RadioGroup
+        android:id="@+id/rgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/dinein"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Dine In"
+            android:layout_gravity="center" />
+
+        <RadioButton
+            android:id="@+id/takeaway"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Take Away"
+            android:layout_gravity="center" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonpesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PESAN SEKARANG"
+        android:layout_gravity="center" />
+
+</LinearLayout>
